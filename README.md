@@ -7,7 +7,7 @@
 
 * **[實作技術文件](./實作文件)**：包含各項漏洞復現、HTB 滲透紀錄之詳細 Writeup。
 * **[專業證照專區](./證照)**：包含 Azure AI Fundamentals、Google Analytics 等認證紀錄。
-* **[跨領域競賽作品專區](./競賽作品專區)**：包含獲獎專案之說明文件與實作代碼。
+* **[跨領域競賽作品專區](https://drive.google.com/drive/folders/1vr4uqUVmuv7-guMDREFaYSpqZoikjVvs?usp=drive_link)**：包含獲獎專案之說明文件與實作代碼。
 
 ---
 
