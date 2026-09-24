@@ -1,69 +1,64 @@
-# 個人技術作品集 
+# 個人技術作品集
 
-您好，我是黃鈺婷，目前就讀於淡江大學資訊管理學系。
-本儲存庫主要紀錄我在大學期間於**軟體開發、網頁技術、自動化流程**以及**資訊安全基礎測試**的實作專案與課堂紀錄。
-
----
-
-##  專案導覽 
-為方便檢閱，本儲存庫之相關證照與詳細技術文件已分類如下：
-
-* **[跨領域競賽作品專區](https://drive.google.com/drive/folders/1vr4uqUVmuv7-guMDREFaYSpqZoikjVvs?usp=drive_link)**：包含獲獎專案之說明文件與實作代碼。
-* **[實作技術文件](./實作文件)**：包含以下四篇網頁漏洞測試與基礎靶機實作之練習紀錄。
-  * `CTF平台監控系統指令注入測試紀錄.pdf`
-  * `HTB_Appointment_SQL注入練習.pdf`
-  * `HTB_Crocodile_匿名登入與目錄枚舉.pdf`
-  * `HTB_Oopsie_權限繞過與環境變數提權.pdf`
-* **[專業證照專區](./證照)**：包含 Azure AI Fundamentals、Google Analytics 等認證紀錄。
+大家好!
+我是黃鈺婷，目前就讀於淡江大學資訊管理學系。
+本儲存庫主要整理大學期間的軟體開發、網頁技術、自動化、UI／互動設計與課程實作紀錄。完整的專題簡報、操作影片及競賽成果則整理於 Google Drive 雲端作品集。
 
 ---
 
-##  關於此專案與學習聲明 (About & Learning Statement)
-* **誠實聲明**：本專案內容主要為課程實作與課後自主練習紀錄。過程中有適度參考教材、AI 輔助工具及技術社群資源，旨在透過基礎漏洞復現理解資安防禦與攻防流程。
-* **AI 輔助學習實踐**：
-  在我的學習、軟體開發與專案測試過程中，我將 Gemini 等生成式 AI 工具視為提升效率的輔助夥伴，廣泛應用於不同領域：
-  * **軟體與網頁開發**：在撰寫 Java 或 Python 程式時，透過 AI 進行基礎代碼的結構優化與除錯，並對比不同邏輯寫法的效率差異。
-  * **介面設計與規劃**：在操作 Figma 進行 UI/UX 設計前，請 AI 輔助構思使用者操作流程與色彩搭配建議，擴展設計思路。
-  * **技術術語白話化**：針對資安防禦、密碼學協議或網路架構進行概念拆解，確保具備正確的基礎底層邏輯。
-  * **資安防禦測試**：在靶機挑戰遇到瓶頸時，請 AI 提供基礎的列舉 (Enumeration) 方向，引導系統化的測試思維。
+## 專案導覽
 
-> **聲明：** 我以「先理解原理，再使用工具」為原則。所有由 AI 提供的建議、腳本優化或代碼架構，皆經過手動檢測與環境驗證。
+* **[雲端作品集](https://drive.google.com/drive/folders/1vr4uqUVmuv7-guMDREFaYSpqZoikjVvs?usp=sharing)**  
+  收錄畢業專題、ECO MAP、CRUD、Linux 專案及其他競賽作品的簡報、PDF 與操作影片。
 
----
+* **[實作技術文件](https://github.com/YUTING-HUANG0/my-portfolio/tree/main/%E5%AF%A6%E4%BD%9C%E6%96%87%E4%BB%B6)**  
+  收錄課程中的 Web 資安與 Hack The Box 練習紀錄，相關操作主要依教材並搭配 AI 輔助完成。
 
-##  核心技能與技術涉獵 
-
-* **軟體開發與網頁**：學習過 Java 與 Python 程式設計；實作過具備增刪查改 (CRUD) 功能的網頁系統，接觸過 SQL 與 MySQL 資料庫操作。
-* **介面設計與自動化**：會用 Figma 製作使用者介面 (UI) 與簡單的互動原型；修習過相關課程並操作過 EMILY.RPA 自動化工具。
-* **資訊安全與環境**：具備 Kali Linux 滲透環境與 Docker 容器化技術基礎，並在受控靶機環境中練習過基礎的 Web 漏洞測試與流量觀察。
+* **[專業證照](https://github.com/YUTING-HUANG0/my-portfolio/tree/main/%E8%AD%89%E7%85%A7)**  
+  收錄 Microsoft Certified: Azure AI Fundamentals 與 Google Analytics 認證證明。
 
 ---
 
-##  核心技術實踐 (Core Skills - 基礎練習紀錄)
-**網頁弱點測試**：理解 SQL 注入登入繞過與指令注入（Command Injection）的基本原理，能在受控環境中執行基礎拼接符號測試。
-- **基礎偵察與列舉**：學會運用 Nmap 進行基礎的服務版本識別，並使用 Gobuster 進行網站隱藏目錄爆破。
-- **權限控制測試**：在測試靶機中，練習過手動變更 Cookie 參數進行網頁端權限提升，並學習過 Linux 系統中 SUID 程式配合環境變數的基礎提權觀念。
-- **環境建置與系統指令**：會使用 Linux 終端機基本指令，並操作過 OpenVPN 進行受控測試環境的連線。
-  
----
+## AI 輔助開發說明
 
-##  跨領域技術實踐 (Selected Projects)
-除了資安基礎練習，我也在不同技術領域進行開發實踐，培養多元的解決問題能力。
-
-> **完整作品展示：[點此進入我的雲端作品集](https://drive.google.com/drive/folders/1vr4uqUVmuv7-guMDREFaYSpqZoikjVvs?usp=drive_link)**
-> *(內含：獲獎專案示範影片、競賽成果報告、App 運行錄影與實作代碼)*
-
-| 專案名稱 | 技術棧 | 實作說明與亮點 |
-| :--- | :--- | :--- |
-| **ECO MAP 數位教材 App** | Figma | **獲獎專案**。獨立開發互動式教材 App，負責前端的介面設計與流程規劃，練習從零到一的產品開發。 |
-| **大專生研究計畫：遊戲式學習** | Unity / C# | **學術研究**。擔任研究助理，協助專案中 Unity 互動平台與技術原型的開發，並參與實際的研究訪談流程。 |
-| **自動化控制腳本** | Python (Linux) | **期末專案**。開發自動化控制流程，實作 Chrome 小恐龍遊戲之基礎影像特徵辨識與自動模擬操作。 |
-| **Web CRUD 應用** | HTML / CSS / JS / 資料庫 | **網路程式設計**。實作後端資料庫增刪查改操作，熟悉前後端資料互動機制。 |
-| **AI 動畫生成製作** | Generative AI / CapCut | **獲獎專案**。運用生成式 AI 技術配合軟體，產出跨媒介的動畫影片與後期剪輯，實踐 AI 協同創作。 |
+在課程、專題與實習開發過程中，我會使用 Codex、Gemini 等生成式 AI 協助程式產出、問題分析、除錯與技術概念理解。實作時會先掌握功能目的與大致流程，再搭配 AI 完成或修改程式，並透過實際執行結果、錯誤訊息及程式碼檢視逐步確認與調整。部分較不熟悉的技術與課程練習也會依教材及 AI 提供的步驟進行操作，因此本作品集以實際參與及使用經驗為主，不以「熟悉」或「精通」描述技術程度。
 
 ---
 
-##  相關證照與環境維護
-- **虛擬化技術**：實踐操作 VMware 上的 Kali Linux 基礎測試環境。
-- **雲端基礎**：持有 **Microsoft Certified: Azure AI Fundamentals**。
-- **數據分析**：持有 **Google Analytics (分析) 個人認證**。
+## 核心技能與工具
+
+曾於課程、專題及實習中使用 Java、Python、Dart、C#、Flutter、Apache Airflow、Spring Boot RESTful API、SQL／MySQL 與 Git，並接觸 Figma、Unity、EMILY.RPA 等工具。實習期間主要使用 Python／Airflow 參與資料流程與排程相關開發；畢業專題則以 Flutter／Dart 進行行動端功能開發及 API 串接。
+
+另曾於課程及受控練習環境中接觸 Kali Linux、Burp Suite、Nmap 等資安工具，相關操作以課程學習紀錄為主；實習期間亦參與 .NET MVC 專案弱點掃描後的原始碼修正。
+
+---
+
+## Selected Projects
+
+| 專案名稱 | 技術／工具 | 實作內容 |
+| --- | --- | --- |
+| **食伴－AI 個人化營養推薦系統** | Flutter / Dart / RESTful API / AI Agent | **畢業專題**。負責行動端功能開發與 Companion Agent 對話體驗調整，完成登入、健康資料、飲食紀錄、營養報表等功能，並串接後端 API、多代理人服務與 3D 模型。 |
+| **Web CRUD 應用** | HTML / CSS / JavaScript / MySQL | **網路程式設計課程實作**。完成資料新增、查詢、修改與刪除功能，練習表單處理、網頁與 MySQL 資料庫間的資料操作流程。 |
+| **Linux 自動化控制腳本** | Python / Linux / OpenCV | **Linux 期末專案**。以 Chrome 小恐龍遊戲為題製作自動控制腳本，從像素偵測方式逐步調整畫面偵測與按鍵控制流程。 |
+| **ECO MAP 永續教育互動教材** | Figma / Prototype | **4 人團隊競賽作品**。使用 Figma 製作 App 畫面與 Prototype 互動流程，內容結合 SDG 6、13、14 與環境教育議題；作品未進行後端及資料庫開發。 |
+| **遊戲式學習研究計畫** | Unity / C# | **研究計畫**。擔任研究助理，協助 Unity 互動平台與技術原型開發，以及文獻資料整理。 |
+| **AI 動畫生成製作** | Generative AI / CapCut | **競賽作品**。以《校園重啟計劃》參與 SDGs × AI 短影音競賽，使用生成式 AI 與剪輯工具完成動畫作品。 |
+
+---
+
+## 專業證照
+
+* **Microsoft Certified: Azure AI Fundamentals**
+* **Google Analytics 認證**
+
+證明文件可於 **[專業證照資料夾](https://github.com/YUTING-HUANG0/my-portfolio/tree/main/%E8%AD%89%E7%85%A7)** 查看。
+
+---
+
+## 作品展示
+
+完整的專題文件、成果簡報、操作影片與競賽資料整理於：
+
+* **[Google Drive 雲端作品集](https://drive.google.com/drive/folders/1vr4uqUVmuv7-guMDREFaYSpqZoikjVvs?usp=sharing)**
+* **[食伴－AI 個人化營養推薦系統 GitHub作品連結](https://github.com/dittooooo/dietary_app)**
+* **[網頁程式設計 CRUD 應用實作 GitHub作品連結](https://github.com/YUTING-HUANG0/114_tkuim_web/tree/main/web-projectp)**
